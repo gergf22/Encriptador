@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Challenge - Encriptador</title>
+
+
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/Logo.svg" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section class="texto-principal">
+            <div class="div-principal">
+                <textarea class="area-texto-principal" placeholder="Ingrese su texto aquí" id="texto" cols="30" ></textarea>
+            </div>
+        </section>
+
+        <section class="botones">
+            <div class="texto-botones">
+                <p><i style="font-size:15px" class="fa">&#xf06a;</i>Solo letras minúsculas y sin acéntos</p>
+            </div>
+            
+            <div class="div-botones">
+                <button id="encriptar" class="encriptar">Encriptar</button>
+                <button id="desencriptar" class="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="encriptador">
+            
+            <div id="imagen-encriptador" class="imagen-encriptador">
+                <img src="imagenes/Muñeco.svg" alt="Muñeco" width="100%">
+            </div>
+            <div id="texto-encriptador" class="texto-encriptador">
+                <p>NINGUN MENSAJE FUE ENCONTRADO</p>
+                <P>ingresa el texto que deseas encriptar o desencriptar</P>
+            </div>
+
+            <div id="div-resultado" class="div-resultado">
+                <p id="texto-resultado" class="texto-resultado">lalala</p>
+            </div>
+            <button id="copiar" class="copiar">copiar</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Página desarrollada por Germán Fraire</p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
